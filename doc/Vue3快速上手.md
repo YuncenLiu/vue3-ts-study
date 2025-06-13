@@ -676,6 +676,7 @@ function test(){
 </script>
 ```
 ### *  情况三
+
 监视`reactive`定义的【对象类型】数据，且默认开启了深度监视。
 ```vue
 <template>
@@ -2282,7 +2283,7 @@ function sendToy(){
      // 注入数据
     let {money,updateMoney} = inject('moneyContext',{money:0,updateMoney:(x:number)=>{}})
      let car = inject('car')
-</script>
+   </script>
    ```
 
 
